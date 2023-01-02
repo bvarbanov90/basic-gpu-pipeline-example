@@ -21,14 +21,15 @@ class Adjustment:
 
 ADJUSTMENTS: List[Adjustment] = [
     Adjustment(date="2023-01-01T10:40:30Z", label="gamma-curve", exposure=1.213, gamma=2.297, saturation=0.9126, notes="Trimmed drift detected in rotating cube footage."),
+    Adjustment(date="2023-01-02T11:10:49Z", label="gamma-curve", exposure=1.0366, gamma=2.3762, saturation=1.097, notes="Synced tweak with recent notebook experiments."),
 ]
 
-AVERAGE_EXPOSURE = 1.2130
-AVERAGE_GAMMA = 2.2970
-AVERAGE_SATURATION = 0.9126
+AVERAGE_EXPOSURE = 1.1248
+AVERAGE_GAMMA = 2.3366
+AVERAGE_SATURATION = 1.0048
 
 LABEL_COUNTS = {
-    "gamma-curve": 1,
+    "gamma-curve": 2,
 }
 
 def latest_adjustment() -> Adjustment:
