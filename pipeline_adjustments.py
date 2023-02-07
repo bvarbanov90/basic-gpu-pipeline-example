@@ -23,15 +23,17 @@ ADJUSTMENTS: List[Adjustment] = [
     Adjustment(date="2023-01-01T10:40:30Z", label="gamma-curve", exposure=1.213, gamma=2.297, saturation=0.9126, notes="Trimmed drift detected in rotating cube footage."),
     Adjustment(date="2023-01-02T11:10:49Z", label="gamma-curve", exposure=1.0366, gamma=2.3762, saturation=1.097, notes="Synced tweak with recent notebook experiments."),
     Adjustment(date="2023-01-22T13:53:45Z", label="luminosity-check", exposure=0.9127, gamma=1.7906, saturation=1.0222, notes="Aligned defaults with export validation checklist."),
+    Adjustment(date="2023-02-07T12:36:52Z", label="motion-blend", exposure=1.1101, gamma=1.8533, saturation=1.0895, notes="Collected quick QA notes for follow-up."),
 ]
 
-AVERAGE_EXPOSURE = 1.0541
-AVERAGE_GAMMA = 2.1546
-AVERAGE_SATURATION = 1.0106
+AVERAGE_EXPOSURE = 1.0681
+AVERAGE_GAMMA = 2.0793
+AVERAGE_SATURATION = 1.0303
 
 LABEL_COUNTS = {
     "gamma-curve": 2,
     "luminosity-check": 1,
+    "motion-blend": 1,
 }
 
 def latest_adjustment() -> Adjustment:
