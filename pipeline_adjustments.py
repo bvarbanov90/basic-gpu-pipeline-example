@@ -35,11 +35,12 @@ ADJUSTMENTS: List[Adjustment] = [
     Adjustment(date="2023-04-18T08:50:28Z", label="gamma-curve", exposure=0.9493, gamma=2.333, saturation=0.8969, notes="Aligned defaults with export validation checklist."),
     Adjustment(date="2023-04-20T13:08:02Z", label="gamma-curve", exposure=1.2357, gamma=2.2908, saturation=1.0047, notes="Trimmed drift detected in rotating cube footage."),
     Adjustment(date="2023-05-11T12:42:48Z", label="texture-balance", exposure=1.2258, gamma=2.5539, saturation=1.169, notes="Rebalanced weights after night runs."),
+    Adjustment(date="2023-05-12T17:11:42Z", label="tone-mapping", exposure=1.3211, gamma=2.4174, saturation=0.837, notes="Smoothed spikes spotted in staging renders."),
 ]
 
-AVERAGE_EXPOSURE = 1.0807
-AVERAGE_GAMMA = 2.1497
-AVERAGE_SATURATION = 1.0206
+AVERAGE_EXPOSURE = 1.0958
+AVERAGE_GAMMA = 2.1664
+AVERAGE_SATURATION = 1.0091
 
 LABEL_COUNTS = {
     "gamma-curve": 7,
@@ -47,6 +48,7 @@ LABEL_COUNTS = {
     "motion-blend": 2,
     "temporal-dither": 1,
     "texture-balance": 3,
+    "tone-mapping": 1,
 }
 
 def latest_adjustment() -> Adjustment:
