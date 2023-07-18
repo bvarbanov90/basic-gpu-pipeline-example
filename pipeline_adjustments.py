@@ -45,16 +45,18 @@ ADJUSTMENTS: List[Adjustment] = [
     Adjustment(date="2023-06-20T08:31:45Z", label="texture-balance", exposure=1.2436, gamma=1.9919, saturation=0.9593, notes="Rebalanced weights after night runs."),
     Adjustment(date="2023-07-02T18:42:28Z", label="motion-blend", exposure=1.0945, gamma=2.0471, saturation=1.2375, notes="Rebalanced weights after night runs."),
     Adjustment(date="2023-07-04T11:12:35Z", label="temporal-dither", exposure=0.8878, gamma=1.7854, saturation=1.1356, notes="Synced tweak with recent notebook experiments."),
+    Adjustment(date="2023-07-18T12:15:22Z", label="shadow-bias", exposure=1.1394, gamma=2.1937, saturation=0.8507, notes="Collected quick QA notes for follow-up."),
 ]
 
-AVERAGE_EXPOSURE = 1.1086
-AVERAGE_GAMMA = 2.1281
-AVERAGE_SATURATION = 1.0337
+AVERAGE_EXPOSURE = 1.1098
+AVERAGE_GAMMA = 2.1306
+AVERAGE_SATURATION = 1.0267
 
 LABEL_COUNTS = {
     "gamma-curve": 7,
     "luminosity-check": 3,
     "motion-blend": 3,
+    "shadow-bias": 1,
     "temporal-dither": 4,
     "texture-balance": 7,
     "tone-mapping": 1,
