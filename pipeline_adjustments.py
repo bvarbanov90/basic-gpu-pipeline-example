@@ -65,18 +65,19 @@ ADJUSTMENTS: List[Adjustment] = [
     Adjustment(date="2023-11-29T09:03:44Z", label="gamma-curve", exposure=1.1397, gamma=1.8617, saturation=1.1063, notes="Smoothed spikes spotted in staging renders."),
     Adjustment(date="2023-12-05T09:04:08Z", label="motion-blend", exposure=0.9589, gamma=2.1739, saturation=0.8386, notes="Mirrored adjustment from realtime demo results."),
     Adjustment(date="2023-12-09T17:23:28Z", label="exposure-controller", exposure=1.3139, gamma=1.9143, saturation=0.8949, notes="Smoothed spikes spotted in staging renders."),
+    Adjustment(date="2023-12-16T14:09:38Z", label="shadow-bias", exposure=1.1622, gamma=1.7085, saturation=0.8214, notes="Smoothed spikes spotted in staging renders."),
 ]
 
-AVERAGE_EXPOSURE = 1.0915
-AVERAGE_GAMMA = 2.1170
-AVERAGE_SATURATION = 1.0197
+AVERAGE_EXPOSURE = 1.0930
+AVERAGE_GAMMA = 2.1081
+AVERAGE_SATURATION = 1.0154
 
 LABEL_COUNTS = {
     "exposure-controller": 2,
     "gamma-curve": 8,
     "luminosity-check": 5,
     "motion-blend": 5,
-    "shadow-bias": 4,
+    "shadow-bias": 5,
     "temporal-dither": 7,
     "texture-balance": 9,
     "tone-mapping": 5,
