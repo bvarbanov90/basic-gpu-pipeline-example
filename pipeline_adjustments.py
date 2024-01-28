@@ -69,14 +69,15 @@ ADJUSTMENTS: List[Adjustment] = [
     Adjustment(date="2024-01-11T09:19:13Z", label="temporal-dither", exposure=0.9346, gamma=2.3444, saturation=1.2532, notes="Rebalanced weights after night runs."),
     Adjustment(date="2024-01-19T16:55:36Z", label="texture-balance", exposure=1.2771, gamma=2.0412, saturation=1.1304, notes="Rebalanced weights after night runs."),
     Adjustment(date="2024-01-27T15:56:23Z", label="luminosity-check", exposure=1.0728, gamma=1.7609, saturation=1.2439, notes="Trimmed drift detected in rotating cube footage."),
+    Adjustment(date="2024-01-28T09:09:56Z", label="exposure-controller", exposure=1.1101, gamma=2.0282, saturation=0.8496, notes="Synced tweak with recent notebook experiments."),
 ]
 
-AVERAGE_EXPOSURE = 1.0931
-AVERAGE_GAMMA = 2.1045
-AVERAGE_SATURATION = 1.0272
+AVERAGE_EXPOSURE = 1.0935
+AVERAGE_GAMMA = 2.1030
+AVERAGE_SATURATION = 1.0237
 
 LABEL_COUNTS = {
-    "exposure-controller": 2,
+    "exposure-controller": 3,
     "gamma-curve": 8,
     "luminosity-check": 6,
     "motion-blend": 5,
