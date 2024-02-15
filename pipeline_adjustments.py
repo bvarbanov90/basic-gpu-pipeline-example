@@ -71,15 +71,16 @@ ADJUSTMENTS: List[Adjustment] = [
     Adjustment(date="2024-01-27T15:56:23Z", label="luminosity-check", exposure=1.0728, gamma=1.7609, saturation=1.2439, notes="Trimmed drift detected in rotating cube footage."),
     Adjustment(date="2024-01-28T09:09:56Z", label="exposure-controller", exposure=1.1101, gamma=2.0282, saturation=0.8496, notes="Synced tweak with recent notebook experiments."),
     Adjustment(date="2024-02-07T16:33:41Z", label="tone-mapping", exposure=1.0074, gamma=2.0457, saturation=0.8985, notes="Rebalanced weights after night runs."),
+    Adjustment(date="2024-02-15T17:01:55Z", label="gamma-curve", exposure=1.1607, gamma=2.1668, saturation=1.1859, notes="Synced tweak with recent notebook experiments."),
 ]
 
-AVERAGE_EXPOSURE = 1.0918
-AVERAGE_GAMMA = 2.1018
-AVERAGE_SATURATION = 1.0212
+AVERAGE_EXPOSURE = 1.0931
+AVERAGE_GAMMA = 2.1031
+AVERAGE_SATURATION = 1.0244
 
 LABEL_COUNTS = {
     "exposure-controller": 3,
-    "gamma-curve": 8,
+    "gamma-curve": 9,
     "luminosity-check": 6,
     "motion-blend": 5,
     "shadow-bias": 5,
