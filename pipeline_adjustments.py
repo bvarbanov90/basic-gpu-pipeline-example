@@ -99,14 +99,15 @@ ADJUSTMENTS: List[Adjustment] = [
     Adjustment(date="2024-08-03T17:32:37Z", label="motion-blend", exposure=0.9124, gamma=2.1119, saturation=1.0877, notes="Aligned defaults with export validation checklist."),
     Adjustment(date="2024-08-14T08:08:10Z", label="tone-mapping", exposure=1.1898, gamma=2.0859, saturation=1.0159, notes="Mirrored adjustment from realtime demo results."),
     Adjustment(date="2024-08-18T16:58:29Z", label="shadow-bias", exposure=1.1127, gamma=1.918, saturation=1.2222, notes="Mirrored adjustment from realtime demo results."),
+    Adjustment(date="2024-08-28T10:48:43Z", label="exposure-controller", exposure=1.2469, gamma=1.9108, saturation=0.9433, notes="Mirrored adjustment from realtime demo results."),
 ]
 
-AVERAGE_EXPOSURE = 1.0967
-AVERAGE_GAMMA = 2.1460
-AVERAGE_SATURATION = 1.0456
+AVERAGE_EXPOSURE = 1.0986
+AVERAGE_GAMMA = 2.1430
+AVERAGE_SATURATION = 1.0443
 
 LABEL_COUNTS = {
-    "exposure-controller": 4,
+    "exposure-controller": 5,
     "gamma-curve": 12,
     "luminosity-check": 8,
     "motion-blend": 10,
