@@ -101,15 +101,16 @@ ADJUSTMENTS: List[Adjustment] = [
     Adjustment(date="2024-08-18T16:58:29Z", label="shadow-bias", exposure=1.1127, gamma=1.918, saturation=1.2222, notes="Mirrored adjustment from realtime demo results."),
     Adjustment(date="2024-08-28T10:48:43Z", label="exposure-controller", exposure=1.2469, gamma=1.9108, saturation=0.9433, notes="Mirrored adjustment from realtime demo results."),
     Adjustment(date="2024-09-02T16:14:26Z", label="temporal-dither", exposure=0.9721, gamma=2.2097, saturation=0.8449, notes="Rebalanced weights after night runs."),
+    Adjustment(date="2024-09-12T16:30:45Z", label="gamma-curve", exposure=1.1958, gamma=2.3507, saturation=1.0036, notes="Rebalanced weights after night runs."),
 ]
 
-AVERAGE_EXPOSURE = 1.0970
-AVERAGE_GAMMA = 2.1439
-AVERAGE_SATURATION = 1.0419
+AVERAGE_EXPOSURE = 1.0982
+AVERAGE_GAMMA = 2.1464
+AVERAGE_SATURATION = 1.0414
 
 LABEL_COUNTS = {
     "exposure-controller": 5,
-    "gamma-curve": 12,
+    "gamma-curve": 13,
     "luminosity-check": 8,
     "motion-blend": 10,
     "shadow-bias": 8,
