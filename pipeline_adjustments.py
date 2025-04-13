@@ -131,11 +131,12 @@ ADJUSTMENTS: List[Adjustment] = [
     Adjustment(date="2025-03-30T15:29:35Z", label="texture-balance", exposure=1.1053, gamma=2.3356, saturation=0.995, notes="Rebalanced weights after night runs."),
     Adjustment(date="2025-04-01T19:18:37Z", label="shadow-bias", exposure=1.2823, gamma=1.7209, saturation=1.2306, notes="Rebalanced weights after night runs."),
     Adjustment(date="2025-04-04T08:00:00Z", label="shadow-bias", exposure=1.0883, gamma=2.1973, saturation=1.1987, notes="Trimmed drift detected in rotating cube footage."),
+    Adjustment(date="2025-04-13T13:28:05Z", label="temporal-dither", exposure=1.2143, gamma=2.5252, saturation=1.163, notes="Collected quick QA notes for follow-up."),
 ]
 
-AVERAGE_EXPOSURE = 1.0914
-AVERAGE_GAMMA = 2.1286
-AVERAGE_SATURATION = 1.0422
+AVERAGE_EXPOSURE = 1.0925
+AVERAGE_GAMMA = 2.1321
+AVERAGE_SATURATION = 1.0433
 
 LABEL_COUNTS = {
     "exposure-controller": 9,
@@ -143,7 +144,7 @@ LABEL_COUNTS = {
     "luminosity-check": 9,
     "motion-blend": 14,
     "shadow-bias": 14,
-    "temporal-dither": 18,
+    "temporal-dither": 19,
     "texture-balance": 18,
     "tone-mapping": 15,
 }
