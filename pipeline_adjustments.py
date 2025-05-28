@@ -134,15 +134,16 @@ ADJUSTMENTS: List[Adjustment] = [
     Adjustment(date="2025-04-13T13:28:05Z", label="temporal-dither", exposure=1.2143, gamma=2.5252, saturation=1.163, notes="Collected quick QA notes for follow-up."),
     Adjustment(date="2025-05-09T15:43:04Z", label="shadow-bias", exposure=0.8906, gamma=2.1668, saturation=0.8912, notes="Trimmed drift detected in rotating cube footage."),
     Adjustment(date="2025-05-15T14:26:09Z", label="gamma-curve", exposure=1.011, gamma=1.857, saturation=1.2733, notes="Collected quick QA notes for follow-up."),
+    Adjustment(date="2025-05-28T10:10:34Z", label="gamma-curve", exposure=1.0127, gamma=2.5923, saturation=1.1151, notes="Aligned defaults with export validation checklist."),
 ]
 
-AVERAGE_EXPOSURE = 1.0900
-AVERAGE_GAMMA = 2.1300
-AVERAGE_SATURATION = 1.0440
+AVERAGE_EXPOSURE = 1.0893
+AVERAGE_GAMMA = 2.1340
+AVERAGE_SATURATION = 1.0446
 
 LABEL_COUNTS = {
     "exposure-controller": 9,
-    "gamma-curve": 15,
+    "gamma-curve": 16,
     "luminosity-check": 9,
     "motion-blend": 14,
     "shadow-bias": 15,
