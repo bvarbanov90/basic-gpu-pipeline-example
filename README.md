@@ -52,6 +52,7 @@ This project provides simplified examples of a GPU pipeline for educational purp
     - In the Jupyter Notebook browser window, click on `basic_2D_GPU_pipeline_example.ipynb` for the 2D triangle pipeline.
     - Open `basic_3D_GPU_pipeline_example.ipynb` to explore the 3D cube example.
     - To see a cube with the same image applied as a texture on all faces, run `textured_cube_example.ipynb` (requires you to provide a `texture.jpg` image in the repository root).
+        - You can download a small sample texture by running `./download_texture.sh`, which saves the image as `texture.jpg`.
 
 3. **Run Notebook**
     - You can run each cell individually by clicking on it and pressing `Shift + Enter`, or run all cells by clicking `Cell > Run All` in the menu.
