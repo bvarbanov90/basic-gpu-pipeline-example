@@ -1,6 +1,6 @@
 # Basic GPU Pipeline Example
 
-This project provides simplified examples of a GPU pipeline for educational purposes. It demonstrates the interactions between memory and the vertex shader, tiler, rasterisation and fragment shader pipeline stages and other components commonly found in GPU HW architectures. The repository now contains both a 2D triangle example and a minimal 3D cube rendered from a side perspective.
+This project provides simplified examples of a GPU pipeline for educational purposes. It demonstrates the interactions between memory and the vertex shader, tiler, rasterisation and fragment shader pipeline stages and other components commonly found in GPU HW architectures. The repository now contains a 2D triangle example, a minimal 3D cube rendered from a side perspective, and a textured cube example that maps an image to each face.
 
 ## Prerequisites
 
@@ -49,7 +49,9 @@ This project provides simplified examples of a GPU pipeline for educational purp
     This will start the Jupyter Notebook and open a browser window. Navigate to the directory where you cloned this project.
 
 2. **Open Notebook**
-    - In the Jupyter Notebook browser window, click on `basic_2D_GPU_pipeline_example.ipynb` for the 2D triangle pipeline or `basic_3D_GPU_pipeline_example.ipynb` to explore the 3D cube example.
+    - In the Jupyter Notebook browser window, click on `basic_2D_GPU_pipeline_example.ipynb` for the 2D triangle pipeline.
+    - Open `basic_3D_GPU_pipeline_example.ipynb` to explore the 3D cube example.
+    - To see a cube with the same image applied as a texture on all faces, run `textured_cube_example.ipynb` (requires you to provide a `texture.jpg` image in the repository root).
 
 3. **Run Notebook**
     - You can run each cell individually by clicking on it and pressing `Shift + Enter`, or run all cells by clicking `Cell > Run All` in the menu.
