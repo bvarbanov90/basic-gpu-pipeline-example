@@ -150,11 +150,12 @@ ADJUSTMENTS: List[Adjustment] = [
     Adjustment(date="2025-08-10T10:40:06Z", label="temporal-dither", exposure=0.9382, gamma=2.4159, saturation=0.9991, notes="Collected quick QA notes for follow-up."),
     Adjustment(date="2025-08-16T13:59:59Z", label="temporal-dither", exposure=0.9494, gamma=2.0431, saturation=1.1294, notes="Collected quick QA notes for follow-up."),
     Adjustment(date="2025-09-07T13:40:51Z", label="gamma-curve", exposure=1.3458, gamma=1.8847, saturation=1.2066, notes="Aligned defaults with export validation checklist."),
+    Adjustment(date="2025-09-15T12:08:45Z", label="tone-mapping", exposure=1.2744, gamma=1.7437, saturation=0.8581, notes="Mirrored adjustment from realtime demo results."),
 ]
 
-AVERAGE_EXPOSURE = 1.0905
-AVERAGE_GAMMA = 2.1284
-AVERAGE_SATURATION = 1.0448
+AVERAGE_EXPOSURE = 1.0919
+AVERAGE_GAMMA = 2.1255
+AVERAGE_SATURATION = 1.0433
 
 LABEL_COUNTS = {
     "exposure-controller": 9,
@@ -164,7 +165,7 @@ LABEL_COUNTS = {
     "shadow-bias": 18,
     "temporal-dither": 23,
     "texture-balance": 18,
-    "tone-mapping": 15,
+    "tone-mapping": 16,
 }
 
 def latest_adjustment() -> Adjustment:
